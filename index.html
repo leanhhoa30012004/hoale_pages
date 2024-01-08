@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hoa Le Page - Final test</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Le Anh Hoa
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          leanhhoa30012004@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +84384311751
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="https://www.facebook.com/hoale.monkeyhoale">About Me</a>
+          <a class="topmenu" href="https://coursera.org/share/08f3edba12b616e69312d9749c2e3ee7">Skills</a>
+          <a href="https://www.youtube.com/channel/UCSp-85F4bVzCnhmP_ew8w7Q" class="topmenu">Projects</a>
+          <a href="https://www.instagram.com/hoalechannel.30104/" class="topmenu">Recommendations</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://img.freepik.com/free-vector/cute-boy-study-with-laptop-cartoon-icon-illustration-education-technology-icon-concept-isolated-flat-cartoon-style_138676-2107.jpg?w=2000" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Le Anh Hoa! 
+          </h1>
+          <p>
+           I am a stutdent of FPT University in Vietnam.
+           I very love code and i want to become the developer in the future.
+           i spend a lot of time in the day to learn code and i learn on IBM Course.
+
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>0.5year experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>0.5 year experience</p>
+        </div>  
+        <div class="skill">
+            <img src="https://codelearnstorage.s3.amazonaws.com/Upload/Blog/nhung-loi-lap-trinh-vien-moi-thuong-gap-63725332158.7217.JPG" alt="C">
+            <h6>C</h6>
+            <p>1 year experience</p>
+        </div>
+        <div class="skill">
+            <img src="https://itstar.edu.vn/images/C__%20image.png" alt="C++">
+            <h6>C++</h6>
+            <p>1 year experience</p>
+        </div>
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/180px-Node.js_logo.svg.png" alt="node.js">
+            <h6>Node.js</h6>
+            <p>Learning</p>
+        </div>
+
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Automatic</h3>
+            <ul>
+              <li>Developed a program to open or close the door when we stay</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>School Website</h3>
+            <ul>
+              <li>Developed and deployed a website for my school help student can search the information of University</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Online Market Website</h3>
+            <ul>
+              <li>Developed the website help people can tradding product and bye a lot of things in this website </li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Hoa is a very enthusiastic person at work, always knowing how to help friends and colleagues. He is very sensitive at work. I believe he will succeed.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I am very impressed by this young student. His enthusiasm and learning potential always motivate him to move forward. People like him will definitely succeed in the near future.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I received a lot of help and guidance from Hoa while working with him. He is good at solving problems and coming up with solutions in difficult cases.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Le Anh Hoa Thank you for the recommendation, Love you <3 </h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
